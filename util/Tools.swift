@@ -38,9 +38,9 @@ class Tools {
         let model = UIDevice.current.model
         infoDic.setValue(model, forKey: "phone_model")
         
-        //Network
-        let network = AlamofireApi.checkNetworkStatus()
-        infoDic.setValue(network, forKey: "phone_network")
+//        //Network
+//        let network = AlamofireApi.checkNetworkStatus()
+//        infoDic.setValue(network, forKey: "phone_network")
         
         //PhoneSize
         infoDic.setValue("\(UIScreen.main.bounds.width)" + "*" + "\(UIScreen.main.bounds.height)", forKey: "phone_size")
