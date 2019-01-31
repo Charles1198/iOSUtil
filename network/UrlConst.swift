@@ -17,6 +17,8 @@ let BASE_URL = "baseUrl"
 let DATA = "data"
 let STATUS_CODE = "statusCode"
 let MESSAGE = "message"
+let TOKEN = "token"
+let REFRESH_TOKEN = "refreshToken"
 
 let CODE_SUCCEED = "S0000000"
 let CODE_NO_EXERCISE = "S1020000"

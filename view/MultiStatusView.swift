@@ -34,7 +34,7 @@ class MultiStatusView: BaseView {
 		
 		let messageLabel = UILabel()
 		messageLabel.text = message
-		messageLabel.textColor = ColorTextLight
+		messageLabel.textColor = UIColor.lightText
 		self.addSubview(messageLabel)
 		messageLabel.snp.makeConstraints({ (make) in
 			make.centerX.equalToSuperview()
@@ -60,7 +60,7 @@ class MultiStatusView: BaseView {
 		
 		let messageLabel = UILabel()
 		messageLabel.text = message
-		messageLabel.textColor = ColorTextLight
+		messageLabel.textColor = UIColor.lightText
 		self.addSubview(messageLabel)
 		messageLabel.snp.makeConstraints({ (make) in
 			make.centerX.equalToSuperview()
@@ -71,7 +71,6 @@ class MultiStatusView: BaseView {
 		
 		let retryBtn = UIButton()
 		retryBtn.setTitle("点我重试", for: .normal)
-		retryBtn.setTitleColor(ColorBtnBlue, for: .normal)
 		retryBtn.addTarget(self, action: #selector(retry), for: .touchUpInside)
 		self.addSubview(retryBtn)
 		retryBtn.snp.makeConstraints({ (make) in
@@ -96,7 +95,7 @@ class MultiStatusView: BaseView {
 		
 		let messageLabel = UILabel()
 		messageLabel.text = message
-		messageLabel.textColor = ColorTextLight
+		messageLabel.textColor = UIColor.lightText
 		self.addSubview(messageLabel)
 		messageLabel.snp.makeConstraints({ (make) in
 			make.centerX.equalToSuperview()
@@ -107,7 +106,6 @@ class MultiStatusView: BaseView {
 		
 		let retryBtn = UIButton()
 		retryBtn.setTitle("点我重试", for: .normal)
-		retryBtn.setTitleColor(ColorBtnBlue, for: .normal)
 		retryBtn.addTarget(self, action: #selector(retry), for: .touchUpInside)
 		self.addSubview(retryBtn)
 		retryBtn.snp.makeConstraints({ (make) in

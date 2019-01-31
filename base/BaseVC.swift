@@ -27,7 +27,7 @@ class BaseVC: UIViewController {
             NSAttributedString.Key.foregroundColor: UIColor.white,
             NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)
         ]
-        self.navigationController?.navigationBar.tintColor = ColorWhite
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         // 返回按钮只有箭头
         self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "", style: .plain, target: nil, action: nil)
     }
