@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # 基本信息
   s.name         = 'iOSUtil'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'iOS 工具类'
   s.description  = <<-DESC
 			Markdown格式说明
