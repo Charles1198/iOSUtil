@@ -270,25 +270,6 @@ class Views {
         view.layer.shadowOffset = CGSize.init(width: 0, height: 3)
     }
     
-    /// 为 view 添加双层阴影阴影
-    ///
-    /// - Parameter view: 目标 view
-    class func addDoubleShadowOn(_ view: UIView) -> Void {
-        view.layer.shadowColor = UIColor.black.cgColor
-        view.layer.shadowOpacity = 0.1
-        view.layer.shadowRadius = 0
-        view.layer.shadowOffset = CGSize.init(width: 0, height: 2)
-        
-        let bottomLine = UIView.init()
-        bottomLine.backgroundColor = ColorShadowGray
-        view.addSubview(bottomLine)
-        bottomLine.snp.makeConstraints { (make) in
-            make.height.equalTo(1)
-            make.width.equalTo(view)
-            make.bottom.equalTo(view)
-        }
-    }
-    
     /// 添加边框
     ///
     /// - Parameters:
